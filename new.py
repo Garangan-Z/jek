@@ -870,8 +870,9 @@ class crack:
 					break
 				else:continue
 
-			self.ko+=1
-			print("\r\x1b[0;33m[Crack] %s/%s OK:%s - CP:%s "%(self.ko,len(self.fl),len(self.ada),len(self.cp)), end=' ');sys.stdout.flush()
+                                except:
+                                  continue
+                                print(("\r\x1b[0;33m[Crack] %s/%s OK:%s - CP:%s "%(self.loop,len(self.fl),len(self.ok),len(self.cp))), end=' ');sys.stdout.flush()
 		except:
 			self.main(fl)
 
