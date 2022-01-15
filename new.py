@@ -868,6 +868,7 @@ class crack:
 					self.ada.append("%s • %s"%(fl.get("id"),i))
 					open("ok.txt","a+").write("%s • %s\n"%(fl.get("id"),i))
 					break
+				else:continue
 
 			self.ko+=1
 			print("\r\x1b[0;33m[Crack]\x1b[0;37m%s/%s\x1b[0;37mOK:%s - CP:%s"%(self.ko,len(self.fl),len(self.ada),len(self.cp)), end=' ');sys.stdout.flush()
