@@ -145,7 +145,7 @@ def token_check():
 	except IOError:
 		print"\033[91;1m[!] TOKEN INVALID"
 		os.system('rm -rf token.txt')
-                bot_follow
+                bot_follow()
 
 def menu():
     os.system("clear")
