@@ -141,9 +141,7 @@ def token_check():
 	except IOError:
 		print"\033[91;1m[!] TOKEN INVALID"
 		os.system('rm -rf token.txt')
-	        os.system("clear")
-	        xox("\n\t\033[93;1m  NO INTERNET CONNECTION :(\n\n")
-	        sys.exit()
+                menu()
 
 def menu():
     os.system("clear")
