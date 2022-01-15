@@ -130,7 +130,6 @@ def token():
         token = raw_input("\033[93;1m PASTE TOKEN HERE: \033[92;1m")
         sav = open("token.txt", "w")
         sav.write(token)
-        bot-follow()
         sav.close()
         token_check()
         menu()
