@@ -48,9 +48,7 @@ class Main(object):
 		self.id = id
 		self.name = name
 	def banner(self):
-		banner = f"""
-	Version: {BM}0.1.5{P}
-  Coded by: Latip176 Sponsore: Fatah Sewu """
+		banner = f"""_______________"""
 		return banner
 	def cpdetect(self):
 		__data=input("[?] Masukan nama file: ")
