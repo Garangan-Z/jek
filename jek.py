@@ -50,7 +50,7 @@ class Main(object):
 	def banner(self):
 		banner = f"""
 	Version: {BM}0.1.5{P}
-  Coded by: Latip176, Sponsore: Fatah Sewu"""
+  Coded by: Latip176 Sponsore: Fatah Sewu """
 		return banner
 	def cpdetect(self):
 		__data=input("[?] Masukan nama file: ")
