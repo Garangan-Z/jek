@@ -48,7 +48,7 @@ class Main(object):
 		self.id = id
 		self.name = name
 	def banner(self):
-		banner = f"""_______________"""
+		banner = f" anjing "
 		return banner
 	def cpdetect(self):
 		__data=input("[?] Masukan nama file: ")
