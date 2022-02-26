@@ -487,9 +487,9 @@ def mbasic(em,pas,hosts):
 	else:return {"status":"error","email":em,"pass":pas}
 class crack:
 	def __init__(self):
-                self.id=[]
 		self.ada=[]
 		self.cp=[]
+                self.user=[]
 		self.ko=0
 		while True:
 			f=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Want to use a manual password (y/t) :\x1b[1;92m ")
@@ -589,7 +589,7 @@ class crack:
 
 			self.ko+=1
                         raka = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
-			print "\r %s[%s] [%s/%s] [OK:%s] - [CP:%s]"%(raka,self.ko,len(self.fl),len(self.id),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r %s[%s] [%s/%s] [OK:%s] - [CP:%s]"%(raka,self.ko,len(self.fl),len(self.ada),len(self.cp),len(self.user)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 class crack2:
