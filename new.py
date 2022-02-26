@@ -588,7 +588,7 @@ class crack:
 
 			self.ko+=1
                         raka = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
-			print "\r %s[%s] [%s/%s] [OK:%s] - [CP:%s]"%(raka,id,self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r %s[%s] [%s/%s] [OK:%s] - [CP:%s]"%(raka,self.ko,len(self.fl),len(self.id),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 class crack2:
