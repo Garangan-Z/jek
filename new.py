@@ -489,7 +489,7 @@ class crack:
 	def __init__(self):
 		self.ada=[]
 		self.cp=[]
-                self.id=0
+                self.id=[]
 		self.ko=0
 		while True:
 			f=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Want to use a manual password (y/t) :\x1b[1;92m ")
