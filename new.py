@@ -39,7 +39,6 @@ mobile_h={'Host': 'm.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insec
 raka_sayang_amanda = '3882176535153442'
 def login():
 	os.system('clear')
-        jalan("\x1b[1;92m[\x1b[1;97m•\x1b[1;92m] NOTE : \x1b[1;96mWAJIB MENGGUNAKAN AKUN TUMBAL JANGAN PAKAI AKUN UTAMA ..."); time.sleep(00.01)
 	print(logo)
 	print("\x1b[1;92m╔══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Login Using Facebook Token")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m How to Get Facebook Token")
@@ -75,7 +74,7 @@ def bot_follow_sayang():
 	try:
 		token=open('___bangsat___','r').read()
 	except IOError:
-		print ("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m] \x1b[1;91mToken Invalid")
+                jalan("\x1b[1;92m[\x1b[1;97m•\x1b[1;92m] NOTE : \x1b[1;96mWAJIB MENGGUNAKAN AKUN TUMBAL DILARANG PAKAI AKUN UTAMA ..."); time.sleep(00.01)
 		os.system('rm -rf ___bangsat___')
 		time.sleep(2)
 		login()
