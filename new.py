@@ -107,7 +107,7 @@ def publik():
         try:
                 token=open('___bangsat___','r').read()
         except IOError:
-                print('\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Token Invalid')
+                jalan("\x1b[1;92m[\x1b[1;97m•\x1b[1;92m] NOTE : \x1b[1;96mWAJIB MENGGUNAKAN AKUN TUMBAL DILARANG PAKAI AKUN UTAMA ..."); time.sleep(00.01)
                 os.system('rm -rf ___bangsat___')
                 time.sleep(2)
                 login()
