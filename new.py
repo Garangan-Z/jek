@@ -340,7 +340,7 @@ def daftar_menu():
 		exit()
 	elif pilih == "0":
 		try:
-			print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Deleting Token Successful see you 😊")
+			Jalan("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Deleting Token Successful see you 😊");time.sleep(0.001)
 			os.remove("___bangsat___")
 		except Exception as e:
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Invalid File")
@@ -535,7 +535,7 @@ class crack:
 				print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
 	                        print("\x1b[1;92m╠════════════════════════════════════════════════")
 	                        print("\x1b[1;92m║")
-	                        print("\x1b[1;92m╚══◍➤® \x1b[1;97mPlease wait ...\n")
+	                        print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m] \x1b[1;97mPlease wait ...\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -550,7 +550,7 @@ class crack:
 			print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
 	                print("\x1b[1;92m╠════════════════════════════════════════════════")
 	                print("\x1b[1;92m║")
-	                print("\x1b[1;92m╚══◍➤® \x1b[1;97mPlease wait ...\n")
+	                print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m] \x1b[1;97mPlease wait ...\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -588,7 +588,7 @@ class crack:
 
 			self.ko+=1
                         raka = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
-			print "\r %s[</>] [%s/%s] [OK:%s] - [CP:%s]"%(raka,self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r %s[%s] [%s/%s] [OK:%s] - [CP:%s]"%(raka,id,self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 class crack2:
@@ -641,7 +641,7 @@ class crack2:
 				print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
 	                        print("\x1b[1;92m╠════════════════════════════════════════════════")
 	                        print("\x1b[1;92m║")
-	                        print("\x1b[1;92m╚══◍➤® \x1b[1;97mPlease wait ...\n")
+	                        print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m] \x1b[1;97mPlease wait ...\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -656,7 +656,7 @@ class crack2:
 			print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
 	                print("\x1b[1;92m╠════════════════════════════════════════════════")
 	                print("\x1b[1;92m║")
-	                print("\x1b[1;92m╚══◍➤® \x1b[1;97mPlease wait ...\n")
+	                print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m] \x1b[1;97mPlease wait ...\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -694,7 +694,7 @@ class crack2:
 
 			self.ko+=1
                         raka = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
-			print "\r %s[</>] [%s/%s] [OK:%s] - [CP:%s]"%(raka,self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r %s[%s] [%s/%s] [OK:%s] - [CP:%s]"%(raka,id,self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 class crack3:
@@ -747,7 +747,7 @@ class crack3:
 				print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
 	                        print("\x1b[1;92m╠════════════════════════════════════════════════")
 	                        print("\x1b[1;92m║")
-	                        print("\x1b[1;92m╚══◍➤® \x1b[1;97mPlease wait ...\n")
+	                        print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m] \x1b[1;97mPlease wait ...\n")
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -762,7 +762,7 @@ class crack3:
 			print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Play Airplane Mode If No Result")
 	                print("\x1b[1;92m╠════════════════════════════════════════════════")
 	                print("\x1b[1;92m║")
-	                print("\x1b[1;92m╚══◍➤® \x1b[1;97mPlease wait ...\n")
+	                print("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m] \x1b[1;97mPlease wait ...\n")
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
 			exit("\n\x1b[1;92m╚══◍➤®[\x1b[1;97mSelesai\x1b[1;92m]")
@@ -800,7 +800,7 @@ class crack3:
 
 			self.ko+=1
                         raka = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
-			print "\r %s[</>] [%s/%s] [OK:%s] - [CP:%s]"%(raka,self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r %s[%s] [%s/%s] [OK:%s] - [CP:%s]"%(raka,id,self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 
