@@ -487,6 +487,7 @@ def mbasic(em,pas,hosts):
 	else:return {"status":"error","email":em,"pass":pas}
 class crack:
 	def __init__(self):
+                self.id=[]
 		self.ada=[]
 		self.cp=[]
 		self.ko=0
