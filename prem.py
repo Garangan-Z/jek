@@ -440,7 +440,7 @@ def api(uid, dekura):
 		ua = ("Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]")
 	global ok, cp, loop, token
 	sys.stdout.write(
-                rm = random.choice(['\x1b[1;91m', '\x1b[1;92m', '\x1b[1;93m', '\x1b[1;94m', '\x1b[1;95m', '\x1b[1;96m', '\x1b[1;97m'])
+                rm = random.choice(['\033[1;31m', '\033[1;32m', '\033[1;33m', '\033[1;34m', '\033[1;35m', '\033[1;36m', '\033[1;37m'])
 		"\r [Crack] %s/%s [OK:-%s] - [CP:-%s] "%(rm,loop, len(id), len(ok), len(cp))
 	); sys.stdout.flush()
 	for pw in dekura:
