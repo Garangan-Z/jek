@@ -251,7 +251,6 @@ def teman():
 	except requests.exceptions.ConnectionError:
 		exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Koneksi Error")
 def menu():
-        global
 	try:
 		token=open('___bangsat___','r').read()
 	except IOError:
