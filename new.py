@@ -4,7 +4,6 @@ import requests,sys,random,re,base64,json
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from bs4 import BeautifulSoup as parser
-from urllib2 import urlopen
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
@@ -26,12 +25,6 @@ logo = ("""\x1b[1;92m    __  ____ ______ __☆☆☆☆☆☆☆☆☆☆☆_
 \x1b[1;92m║
 \x1b[1;92m╚══◍➤\x1b[1;97mCoded By  : \x1b[1;92mRaka \x1b[1;97m& \x1b[1;92mAngga
 \x1b[1;95m=================================================""")
-url=('http://ipinfo.io/json')
-response=urlopen(url)
-data=json.load(response)
-ip=data['ip']
-org=data['org']
-a = requests.get("http://ip-api.com/json/",headers={"Referer":"http://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"}).json()
 ua=('Mozilla/5.0 (NokiaC5-00)UC AppleWebkit(like Gecko) Safari/530')
 mbasic_h={"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
 free_h={"Host":"free.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
@@ -279,9 +272,7 @@ def menu():
 	os.system("clear")
 	print(logo)
 	print("\x1b[1;92m╔══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name : "+nama)
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Ip   : "+ip)
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Stts : \x1b[1;92mPremium")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Org  : "+org)
 	print("\x1b[1;92m║")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Target Public Id")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Target Id Likes Posts")
