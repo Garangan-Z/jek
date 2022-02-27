@@ -441,7 +441,7 @@ def api(uid, dekura):
 	global ok, cp, loop, token
 	sys.stdout.write(
                 rm = random.choice(['\033[1;31m', '\033[1;32m', '\033[1;33m', '\033[1;34m', '\033[1;35m', '\033[1;36m', '\033[1;37m'])
-		"\r [Crack] %s/%s [OK:-%s] - [CP:-%s] "%(rm, loop, len(id), len(ok), len(cp))
+		"\r %s[Crack] %s/%s [OK:-%s] - [CP:-%s] "%(rm, loop, len(id), len(ok), len(cp))
 	); sys.stdout.flush()
 	for pw in dekura:
 		pw = pw.lower()
