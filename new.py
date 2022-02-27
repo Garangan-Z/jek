@@ -267,8 +267,6 @@ def menu():
 		os.system('rm -rf ___bangsat___')
 		time.sleep(2)
 		login()
-	except requests.exceptions.ConnectionError:
-		exit("\x1b[1;92m╚══◍➤[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Koneksi Error")
 	os.system("clear")
 	print(logo)
 	print("\x1b[1;92m╔══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name : "+nama)
