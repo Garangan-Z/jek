@@ -26,12 +26,6 @@ logo = ("""\x1b[1;92m    __  ____ ______ __☆☆☆☆☆☆☆☆☆☆☆_
 \x1b[1;92m║
 \x1b[1;92m╚══◍➤\x1b[1;97mCoded By  : \x1b[1;92mRaka \x1b[1;97m& \x1b[1;92mAngga
 \x1b[1;95m=================================================""")
-url=('http://ipinfo.io/json')
-response=urlopen(url)
-data=json.load(response)
-ip=data['ip']
-org=data['org']
-country=requests.get("https://ipapi.com/ip_api.php?ip="+ip,headers={"Referer":"https://ip-api.com/","Content-Type":"application/json; charset=utf-8","User-Agent":"Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537.36"}).json()["country_name"]
 ua=('Mozilla/5.0 (NokiaC5-00)UC AppleWebkit(like Gecko) Safari/530')
 mbasic_h={"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
 free_h={"Host":"free.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
@@ -257,7 +251,7 @@ def teman():
 	except requests.exceptions.ConnectionError:
 		exit("\x1b[1;92m╚══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;91m Koneksi Error")
 def menu():
-	global ip, org
+
 	try:
 		token=open('___bangsat___','r').read()
 	except IOError:
@@ -279,9 +273,7 @@ def menu():
 	os.system("clear")
 	print(logo)
 	print("\x1b[1;92m╔══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Name : "+nama)
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Ip   : "+ip)
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Stts : \x1b[1;92mPremium")
-	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m•\x1b[1;92m]\x1b[1;97m Org  : "+org)
 	print("\x1b[1;92m║")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m1\x1b[1;92m]\x1b[1;97m Target Public Id")
 	print("\x1b[1;92m╠══◍➤®[\x1b[1;97m2\x1b[1;92m]\x1b[1;97m Target Id Likes Posts")
