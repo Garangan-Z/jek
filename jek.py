@@ -81,7 +81,7 @@ def menu():
 		ip = requests.get("https://api.ipify.org").text
 	except IOError:
 		os.system("rm -f login.txt")
-		exit(" ! token kadaluwarsa")
+		menu()
 	logo()
 	print(" * user aktif : %s"%(nama))
 	print(" * ip address : %s"%(ip))
