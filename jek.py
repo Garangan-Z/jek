@@ -66,7 +66,7 @@ def login():
 			bot_ea()
 		except KeyError:
 			os.system("rm -f login.txt")
-			exit(" ! token kadaluwarsa")
+			menu()
 
 def menu():
 	os.system("clear")
@@ -75,7 +75,7 @@ def menu():
 		token = open("login.txt","r").read()
 	except KeyError:
 		os.system("rm -f login.txt")
-		exit(" ! token kadaluwarsa")
+		menu()
 	try:
 		nama = requests.get("https://graph.facebook.com/me/?access_token="+token).json()["name"].lower()
 		ip = requests.get("https://api.ipify.org").text
