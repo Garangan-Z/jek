@@ -160,17 +160,14 @@ def menu():
         exit(" %s[!] anda tidak terhubung ke internet!"%(M))
 
     logo()
-    print('──────────────────────────────────────────')
     print(" Nama        : %s"%(nama))
     print(" ID          : %s"%(uid))
     print(" Tgl. Lahir  : %s"%(ttl))
-    print('──────────────────────────────────────────')
     print(" [1]. crack teman/publik")
     print(" [2]. cek opsi akun cp")
     print(" [3]. lihat hasil crack")
     print(" [4]. setting user agent")
     print(" [5]. logout (hapus token)")
-    print('──────────────────────────────────────────')
     asw = input(" [?] pilih menu : ")
     if asw == "":
     	menu()
@@ -184,15 +181,15 @@ def menu():
     	gantiua()
     elif asw == "5":
     	os.system('rm -f token.txt')
-    	print('──────────────────────────────────────────')
+    	print('===========================================')
     	jalan(" [✓] berhasil menghapus token ")
     	exit()
     else:
     	jalan(" [!] pilih jawaban dengan bener ! ")
     	menu() 
  
-def gantiua():
-	print('──────────────────────────────────────────')
+def gantiua()
+        print('===========================================')
 	ajg = input(" [?] masukan ua : ")
 	if ajg in[""]:
 		menu()
@@ -201,7 +198,7 @@ def gantiua():
 			zedd = open('ugent.txt', 'w')
 			zedd.write(ajg)
 			zedd.close()
-			print('──────────────────────────────────────────')
+			print('===========================================')
 			print(" [✓] berhasil mengganti ua")
 			input(" [*] tekan enter untuk kembali ke menu")
 			menu()
